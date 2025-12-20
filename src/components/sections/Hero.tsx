@@ -62,9 +62,9 @@ const Hero = () => {
             variants={itemVariants}
             className="mb-6"
           >
-            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden ring-4 ring-primary-500/30 shadow-2xl">
+              <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden ring-4 ring-primary-500/30 shadow-2xl">
               <Image
-                src="/images/avatar.jfif"
+                src={personalInfo.avatar || "/images/avatar.png"}
                 alt={personalInfo.name}
                 fill
                 className="object-cover"

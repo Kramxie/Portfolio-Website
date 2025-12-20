@@ -52,7 +52,7 @@ const About = () => {
             <div className="flex items-center gap-4 mb-6">
               <div className="w-20 h-20 rounded-full overflow-hidden ring-4 ring-primary-500/30 shadow-lg">
                 <Image
-                  src="/images/avatar.jfif"
+                  src={personalInfo.avatar || "/images/avatar.png"}
                   alt={personalInfo.name}
                   width={80}
                   height={80}
