@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "John Doe | IT Student & Developer Portfolio",
+  title: "Mark Andrei Atieh | IT Student & Developer Portfolio",
   description:
     "Portfolio of an IT student specializing in Cloud Computing, ERP Systems, and Software Development. Seeking internship opportunities in tech.",
   keywords: [
@@ -16,20 +16,20 @@ export const metadata: Metadata = {
     "Portfolio",
     "Internship",
   ],
-  authors: [{ name: "John Doe" }],
-  creator: "John Doe",
+  authors: [{ name: "Mark Andrei Atieh" }],
+  creator: "Mark Andrei Atieh",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://yourportfolio.com",
-    title: "John Doe | IT Student & Developer Portfolio",
+    title: "Mark Andrei Atieh | IT Student & Developer Portfolio",
     description:
       "Portfolio of an IT student specializing in Cloud Computing, ERP Systems, and Software Development.",
-    siteName: "John Doe Portfolio",
+    siteName: "Mark Andrei Atieh Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "John Doe | IT Student & Developer Portfolio",
+    title: "Mark Andrei Atieh | IT Student & Developer Portfolio",
     description:
       "Portfolio of an IT student specializing in Cloud Computing, ERP Systems, and Software Development.",
   },

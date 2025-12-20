@@ -195,7 +195,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="input-field"
-                  placeholder="John Doe"
+                  placeholder="Mark Andrei Atieh"
                 />
               </div>
 
@@ -215,7 +215,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="input-field"
-                  placeholder="john@example.com"
+                  placeholder="Mark Andrei Atieh@example.com"
                 />
               </div>
             </div>
