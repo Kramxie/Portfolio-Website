@@ -47,7 +47,7 @@ export const personalInfo = {
   phone: "+63 960 215 6487",
   location: "Cavite, Philippines",
   resumeUrl: "/resume.pdf",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar.png",
 };
 
 // ============================================
@@ -197,7 +197,7 @@ export const projects = [
     "Vercel",
     "Render"
   ],
-  category: "Web App",
+  category: "Enterprise Web System",
   githubUrl: "https://github.com/Kramxie/EmployeeAttendanceTrackingSystem",
   liveUrl: "https://employeeattendancetrackingsystem-1.onrender.com/login",
   featured: true
