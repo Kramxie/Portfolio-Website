@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Mark Andrei D. Atieh</title>
+  <style>
+    /* Simple resume styles optimized for printing to PDF */
+    :root{--accent:#6b46ff;--muted:#6b7280;--text:#111827}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial; color:var(--text)}
+    .page{width:210mm;min-height:297mm;padding:20mm;margin:10mm auto;background:#fff;box-shadow:0 0 0.5cm rgba(0,0,0,0.1)}
+    header{display:flex;align-items:center;gap:18px}
+    .avatar{width:96px;height:96px;border-radius:50%;overflow:hidden;background:#f3f4f6;flex:0 0 96px}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    h1{font-size:26px;margin:0}
+    .subtitle{color:var(--muted);margin-top:4px}
+    .contact{margin-left:auto;text-align:right;font-size:13px;color:var(--muted)}
+    .section{margin-top:18px}
+    .section h2{font-size:14px;margin:0 0 8px 0;color:var(--accent);letter-spacing:0.02em}
+    .two-col{display:flex;gap:24px}
+    .col{flex:1}
+    .pill{display:inline-block;background:#f3f4ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600;font-size:12px}
+    ul{margin:8px 0 0 0;padding-left:18px}
+    li{margin-bottom:6px}
+    .role{font-weight:700}
+    .meta{font-size:12px;color:var(--muted)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#f3f4f6;padding:6px 8px;border-radius:6px;font-size:12px;color:#111827}
+    .divider{height:1px;background:#eef2ff;margin:14px 0}
+    footer{position:relative;margin-top:18px;color:var(--muted);font-size:12px}
+    @media print{body{box-shadow:none;margin:0}.page{margin:0;padding:12mm;box-shadow:none}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="avatar">
+        <img src="/images/avatar.png" alt="Mark Andrei D. Atieh" />
+      </div>
+      <div>
+        <h1>Mark Andrei D. Atieh</h1>
+        <div class="subtitle">IT Student | Aspiring Cloud & Software Developer</div>
+        <div class="meta" style="margin-top:8px">Building innovative solutions for tomorrow's challenges</div>
+      </div>
+      <div class="contact">
+        <div><strong>Email</strong></div>
+        <div><a href="mailto:markatieh21@gmail.com">markatieh21@gmail.com</a></div>
+        <div style="margin-top:8px"><strong>Phone</strong></div>
+        <div>+63 960 215 6487</div>
+        <div style="margin-top:8px"><strong>Location</strong></div>
+        <div>Cavite, Philippines</div>
+      </div>
+    </header>
+
+    <div class="divider"></div>
+
+    <div class="two-col">
+      <div class="col">
+        <section class="section">
+          <h2>Summary</h2>
+          <p style="margin:6px 0;color:var(--muted)">Dedicated IT student pursuing a degree in Information Technology with hands-on experience building web applications. Strong interest in cloud computing, enterprise systems, and full-stack development. Seeking an internship to apply and grow technical skills in a collaborative environment.</p>
+        </section>
+
+        <section class="section">
+          <h2>Experience</h2>
+          <div style="margin-top:6px">
+            <div class="role">Full-stack Developer — Fundamental Apparel (Student Capstone)</div>
+            <div class="meta">2024 • Deployed on Render • Node.js, Express, MongoDB, Socket.io, Three.js</div>
+            <ul>
+              <li>Built an e-commerce platform with custom jersey ordering, real-time chat, and admin dashboard.</li>
+              <li>Integrated PayMongo for payments (GCash & Card) and implemented JWT-based auth.</li>
+              <li>Contributed to UI/UX using Tailwind CSS and 3D previews with Three.js.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:10px">
+            <div class="role">Personal Projects</div>
+            <div class="meta">Weather Dashboard • Employee Attendance Tracking System</div>
+            <ul>
+              <li>Implemented a responsive weather dashboard using OpenWeatherMap API and modern JS patterns.</li>
+              <li>Built an attendance tracking system with role-based auth and reporting.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <div style="margin-top:6px">
+            <div class="role">Bachelor of Science in Information Technology</div>
+            <div class="meta">De La Salle University - Dasmariñas • 2022 — Present</div>
+            <ul>
+              <li>Relevant coursework: Cloud Computing, Database Management, Software Engineering, ERP Systems.</li>
+              <li>Dean's List (multiple semesters). Capstone: Web-based e-commerce for Fundamental Apparel.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <div class="col">
+        <section class="section">
+          <h2>Skills</h2>
+          <div class="skills" style="margin-top:8px">
+            <span class="skill">React</span>
+            <span class="skill">Next.js</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">Tailwind CSS</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">Docker</span>
+            <span class="skill">Kubernetes (basic)</span>
+            <span class="skill">Git</span>
+            <span class="skill">Vercel / Render</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Certifications</h2>
+          <ul>
+            <li>PCAP - Programming Essentials in Python (Cisco Networking Academy)</li>
+            <li>IT Essentials: PC Hardware and Software (Cisco Networking Academy)</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Links</h2>
+          <ul>
+            <li>GitHub: https://github.com/Kramxie</li>
+            <li>LinkedIn: https://www.linkedin.com/in/mark-andrei-atieh-16b086394</li>
+            <li>Portfolio: (this site)</li>
+          </ul>
+        </section>
+
+        <section class="section" style="margin-top:18px">
+          <h2>Languages & Tools</h2>
+          <div class="skills" style="margin-top:8px">
+            <span class="skill">HTML & CSS</span>
+            <span class="skill">Bootstrap / Tailwind</span>
+            <span class="skill">Express</span>
+            <span class="skill">Socket.io</span>
+            <span class="skill">Three.js</span>
+            <span class="skill">OpenWeatherMap API</span>
+            <span class="skill">Postman</span>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      Generated from portfolio content — contact: markatieh21@gmail.com
+    </footer>
+  </div>
+</body>
+</html>
