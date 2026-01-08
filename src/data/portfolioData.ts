@@ -245,6 +245,17 @@ export const experiences = [
     description:
       "Entry-level certification validating foundational knowledge of computer hardware, software, and troubleshooting. Covers PC components, operating systems, installation, maintenance, and basic networking concepts, as taught through the Cisco Networking Academy.",
   },
+  {
+    id: 7,
+    type: "certification",
+    title: "Maintaining Computer Systems and Networks (MCSN)",
+    organization: "TESDA",
+    location: "TESDA Online Program - Taguig City",
+    startDate: "15 March 2022",
+    endDate: "",
+    description:
+      "National certification covering the competencies required to maintain computer systems and networks. Includes preventive maintenance, troubleshooting hardware and software issues, configuring network devices, ensuring system security, and performing routine backups and system updates to ensure optimal performance and reliability.",
+  },
 ];
 
 // ============================================
@@ -253,6 +264,6 @@ export const experiences = [
 export const stats = [
   { label: "Projects Completed", value: "3" },
   { label: "Technologies", value: "19" },
-  { label: "Certifications", value: "2" },
+  { label: "Certifications", value: "3" },
   { label: "GitHub Repos", value: "7" },
 ];
