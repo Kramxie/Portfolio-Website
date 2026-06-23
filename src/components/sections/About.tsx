@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FaUserGraduate, FaLaptopCode, FaCloud, FaRocket } from "react-icons/fa";
+import { FaLaptopCode, FaRocket } from "react-icons/fa";
 import { SectionWrapper, SectionHeader } from "@/components/ui/Section";
 import { aboutMe, personalInfo } from "@/data/portfolioData";
 
@@ -12,16 +12,6 @@ const About = () => {
       icon: FaLaptopCode,
       title: "Software Development",
       description: "Full-stack web development with modern frameworks",
-    },
-    {
-      icon: FaCloud,
-      title: "Cloud Computing",
-      description: "AWS, Azure, and GCP cloud services",
-    },
-    {
-      icon: FaUserGraduate,
-      title: "ERP Systems",
-      description: "Enterprise resource planning and integration",
     },
     {
       icon: FaRocket,

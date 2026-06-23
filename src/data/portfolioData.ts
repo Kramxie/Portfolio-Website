@@ -1,18 +1,14 @@
 import {
   FaReact,
   FaNodeJs,
-  FaAws,
-  FaDocker,
   FaGitAlt,
   FaPython,
   FaJava,
   FaHtml5,
   FaCss3Alt,
-  FaLinux,
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaMicrosoft,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -20,17 +16,9 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiMongodb,
-  SiPostgresql,
   SiMysql,
-  SiGooglecloud,
-  SiKubernetes,
-  SiTerraform,
-  SiSap,
-  SiOracle,
-  SiFirebase,
   SiVercel,
   SiFigma,
-  SiPostman,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -41,12 +29,12 @@ export const personalInfo = {
   name: "Mark Andrei D. Atieh",
   firstName: "Mark Andrei",
   lastName: "Atieh",
-  role: "IT Student | Aspiring Cloud & Software Developer",
+  role: "Web & Software Developer",
   tagline: "Building innovative solutions for tomorrow's challenges",
   email: "markatieh21@gmail.com",
   phone: "+63 960 215 6487",
   location: "Cavite, Philippines",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Atieh_RESUME(2).pdf",
   avatar: "/images/avatar.png",
 };
 
@@ -90,14 +78,14 @@ export const aboutMe = {
   title: "About Me",
   subtitle: "Get to know me better",
   description: [
-    "I am a dedicated IT student currently pursuing a degree in Information Technology, with a basic foundation in web development and a strong willingness to learn and improve. While I am still developing my technical skills, I am highly motivated, hardworking, and eager to gain hands-on experience through real-world projects.",
-    "I have experience working with web technologies and am continuously enhancing my knowledge through practice and self-study. I am also very interested in learning more about cloud computing and enterprise systems, as I aim to understand how modern applications and business processes are built and managed at scale.",
-    "What I may lack in experience, I make up for with perseverance, adaptability, and a strong desire to learn. I am actively seeking an internship opportunity where I can grow my skills, contribute to a team, and gain valuable industry experience.",
+    "I am a dedicated Web and Software Developer with a solid foundation in building responsive, user-centric applications and modern enterprise systems. Highly motivated and hardworking, I thrive on turning complex problems into elegant software solutions.",
+    "Driven by continuous learning, I have practical experience working with full-stack web technologies and maintaining system reliability. I am deeply passionate about robust back-end integrations, structured databases, and modern front-end practices.",
+    "With a strong blend of adaptability, perseverance, and problem-solving skills, I am actively seeking full-time professional opportunities where I can deliver impactful results, contribute to an innovative team, and further develop my career in the tech industry.",
   ],
   highlights: [
-    { label: "Focus Areas", value: "Cloud, ERP, Software Dev" },
+    { label: "Focus Areas", value: "Web & Software Dev" },
     { label: "Education", value: "BS Information Technology" },
-    { label: "Status", value: "Seeking Internship" },
+    { label: "Status", value: "Open to Job Opportunities" },
     { label: "Location", value: "Cavite, Philippines" },
   ],
 };
@@ -130,15 +118,7 @@ export const skillCategories = [
       { name: "MySQL", icon: SiMysql, level: 50 },
     ],
   },
-  {
-    title: "Cloud & DevOps",
-    description: "Cloud platforms and deployment technologies",
-    skills: [
-      { name: "Docker", icon: FaDocker, level: 30 },
-      { name: "Kubernetes", icon: SiKubernetes, level: 40 },
-      { name: "Linux", icon: FaLinux, level: 40 },
-    ],
-  },
+// removed Cloud & DevOps from skills
   {
     title: "Tools & ERP",
     description: "Development tools and enterprise systems",
@@ -180,28 +160,38 @@ export const projects = [
     featured: true,
   },
   {
-  id: 3,
-  title: "Employee Attendance Tracking System",
-  description: "A full-stack attendance management system built for small-to-medium organizations to automate timekeeping and simplify workforce scheduling. Features include secure JWT authentication, role-based access (admin & employee), real-time clock-in/out, shift scheduling, holiday management, employee profiles, password reset, admin dashboard for attendance review, and deployment-ready configuration for Vercel (frontend) and Render (backend). The app is responsive, built with modern tooling and follows good security practices for production-ready use.",
-  image: "/images/projects/EmployeeAttendanceLogo.jpg",
-  tags: [
-    "React",
-    "Vite",
-    "Tailwind CSS",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "Mongoose",
-    "JWT",
-    "Axios",
-    "Vercel",
-    "Render"
-  ],
-  category: "Enterprise Web System",
-  githubUrl: "https://github.com/Kramxie/EmployeeAttendanceTrackingSystem",
-  liveUrl: "https://employeeattendancetrackingsystem-1.onrender.com/login",
-  featured: true
-},
+    id: 3,
+    title: "Nexxus Lab Revamp Website",
+    description: "Spearheaded the redesign and development of the Nexxus Lab website, improving user experience, interface design, and overall accessibility. Improved website structure, performance, and maintainability through modern web development practices and reusable components. Collaborated with team members to analyze requirements, implement improvements, and deliver a production-ready website.",
+    image: "/images/projects/nexxuslab.png",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Full Stack"],
+    category: "Corporate Website",
+    githubUrl: "",
+    liveUrl: "",
+    featured: true
+  },
+  {
+    id: 4,
+    title: "MyPropertyBuddy",
+    description: "Served as a Back-End Developer focusing on QA and backend functionality. Enhanced system reliability by identifying and documenting over 50 functional bugs through comprehensive manual and regression testing activities. Implemented white-label features and customization updates based on client requirements and branding needs.",
+    image: "/images/projects/mypropertybuddy.png",
+    tags: ["QA", "Manual Testing", "Regression Testing", "Backend", "White-Labeling"],
+    category: "Real Estate System",
+    githubUrl: "",
+    liveUrl: "",
+    featured: true
+  },
+  {
+    id: 5,
+    title: "Neo-routine",
+    description: "A comprehensive productivity and routine-tracking workspace application aimed at streamlining daily planning, task execution, and habit building.",
+    image: "/images/projects/neoroutine.png",
+    tags: ["Node.js", "React", "Full Stack", "Productivity"],
+    category: "Web App",
+    githubUrl: "",
+    liveUrl: "",
+    featured: true
+  }
 ];
 
 // ============================================
@@ -221,6 +211,22 @@ export const experiences = [
     highlights: [
       "Dean's List for 7 consecutive semesters",
       "Capstone Project: Development of A Web-Based E-Commerce for Fundamental Apparel",
+    ],
+  },
+  {
+    id: 99,
+    type: "job",
+    title: "Full-Stack and Back-end Developer Intern",
+    organization: "Nexxus Lab",
+    location: "Remote / Hybrid",
+    startDate: "January 2026",
+    endDate: "April 2026",
+    description:
+      "Spearheaded the redesign and development of the Nexxus Lab website, improving user experience, interface design, and overall accessibility. Designed MongoDB database structures, optimized queries, and improved data handling performance.",
+    highlights: [
+      "Developed backend services and REST APIs using Node.js and Express.js",
+      "Implemented JWT authentication, role-based authorization, validation, and API security practices",
+      "Collaborated with frontend developers to deliver production-ready features"
     ],
   },
   {
@@ -256,14 +262,54 @@ export const experiences = [
     description:
       "National certification covering the competencies required to maintain computer systems and networks. Includes preventive maintenance, troubleshooting hardware and software issues, configuring network devices, ensuring system security, and performing routine backups and system updates to ensure optimal performance and reliability.",
   },
+  {
+    id: 8,
+    type: "certification",
+    title: "Google Cloud Fundamentals: Core Infrastructure",
+    organization: "Coursera",
+    location: "Online",
+    startDate: "January 2026",
+    endDate: "",
+    description: "Certification covering the fundamental concepts of Google Cloud Platform architecture and services.",
+  },
+  {
+    id: 9,
+    type: "certification",
+    title: "HubSpot Academy: SEO Certified",
+    organization: "HubSpot Academy",
+    location: "Online",
+    startDate: "10 March 2026",
+    endDate: "09 April 2027",
+    description: "SEO certification validating skills in website optimization, keyword research, and search engine ranking strategies.",
+  },
+  {
+    id: 10,
+    type: "certification",
+    title: "Setting Up Computer Servers",
+    organization: "TESDA",
+    location: "Online / Onsite",
+    startDate: "11 March 2022",
+    endDate: "",
+    description: "Certification in configuring and maintaining computer servers, covering network and directory services.",
+  },
+  {
+    id: 11,
+    type: "certification",
+    title: "Proserve Academy Graphic Design Workshop",
+    organization: "Proserve Academy",
+    location: "Online / Onsite",
+    startDate: "7 February 2026",
+    endDate: "",
+    description: "Workshop focused on essential graphic design skills and principles.",
+  }
 ];
 
 // ============================================
 // STATISTICS
 // ============================================
 export const stats = [
-  { label: "Projects Completed", value: "3" },
+  { label: "Projects Completed", value: "5" },
   { label: "Technologies", value: "19" },
-  { label: "Certifications", value: "3" },
+  { label: "Certifications", value: "7" },
   { label: "GitHub Repos", value: "7" },
 ];
