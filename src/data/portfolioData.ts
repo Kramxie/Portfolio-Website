@@ -167,7 +167,7 @@ export const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "Full Stack"],
     category: "Corporate Website",
     githubUrl: "",
-    liveUrl: "",
+    liveUrl: "https://team1-nexus-lab.vercel.app/",
     featured: true
   },
   {
@@ -178,7 +178,7 @@ export const projects = [
     tags: ["QA", "Manual Testing", "Regression Testing", "Backend", "White-Labeling"],
     category: "Real Estate System",
     githubUrl: "",
-    liveUrl: "",
+    liveUrl: "https://my-property-buddy.vercel.app/guest-LandingPage.html",
     featured: true
   },
   {
@@ -189,7 +189,7 @@ export const projects = [
     tags: ["Node.js", "React", "Full Stack", "Productivity"],
     category: "Web App",
     githubUrl: "",
-    liveUrl: "",
+    liveUrl: "https://neo-routine.vercel.app/",
     featured: true
   }
 ];
